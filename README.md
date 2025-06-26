@@ -6,7 +6,7 @@ An intelligent travel itinerary generator that helps users plan personalized tri
 
 ## 🔗 Live Link
 
-👉 [View Live App]([https://your-deployment-url.com](https://ai-travel-planner-pi.vercel.app/))
+👉 [View Live App](https://ai-travel-planner-pi.vercel.app/)
 
 ---
 
