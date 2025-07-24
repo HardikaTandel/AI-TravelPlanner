@@ -237,7 +237,7 @@ const handleSendEmail = async () => {
   const pdfBase64 = doc.output('datauristring').split(',')[1];
   toast('Sending email...');
   try {
-    const res = await fetch('http://localhost:5000/api/send-itinerary-email', {
+    const res = await fetch('/api/send-itinerary-email', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, pdfBase64, filename: `Trip_Itinerary_${trip?.userSelection?.location?.label || ''}.pdf` })
